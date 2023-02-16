@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A program that prints by printf function
- * Return: 0 (scored)
+ * Return: 0 (success)
  */
 int main(void)
 {
