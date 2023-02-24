@@ -1,15 +1,15 @@
 #include "main.h"
 /**
  * _isupper - checks for uppercase character
- * @n: is a character
+ * @c: is a character
  * Return: 1 if character is uppercase, otherwise 0
  */
 
-int _isupper(int n);
+int _isupper(int c);
 {
 	int n;
 
-	if (n >= 65 && n <= 97)
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
