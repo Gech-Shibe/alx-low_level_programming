@@ -18,12 +18,12 @@ int main(void)
 	srand(time(NULL));
 	for (z = 0; z < 100; z++)
 	{
-		pass[z] = rand() % 60;
+		pass[z] = rand() % 78;
 		sum += (pass[z] + '0');
 		putchar(pass[z] + '0');
-		if ((3423 - sum) - '0' < 60)
+		if ((2772 - sum) - '0' < 78)
 		{
-			y = 3423 - sum - '0';
+			y = 2772 - sum - '0';
 			sum += y;
 			putchar(y + '0');
 			break;
