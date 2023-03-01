@@ -23,5 +23,5 @@ char *leet(char *y)
 			}
 		}
 	}
-	return (n)
+	return (y)
 }
