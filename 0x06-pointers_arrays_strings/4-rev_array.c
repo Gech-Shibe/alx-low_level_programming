@@ -10,15 +10,15 @@
 
 void reverse_array(int *a, int n)
 {
-	int a;
+	int c;
 	int b;
 
-	for (a = 0; a < n; a++)
+	for (c = 0; c < n; c++)
 	{
 		n--;
-		b = z[a];
-		z[a] = z[n];
-		z[n] = b;
+		b = a[c];
+		a[c] = a[n];
+		a[n] = b;
 	}
 	return (0);
 }
