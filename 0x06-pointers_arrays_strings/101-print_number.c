@@ -2,13 +2,13 @@
 
 /**
  * print_number - A function that prints an integer.
- * @n: iinteger number
+ * @n: integer number
  * Return: 0
  */
 
 void print_number(int n)
 {
-	int a = n;
+	unsigned int a = n;
 
 	if (n < 0)
 	{
