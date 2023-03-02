@@ -16,8 +16,8 @@ int main(void)
 	 * ou are not allowed to modify the variable p
 	 * Your code should be written at line 19, before the ;
 	 */
-	*(p + s) = 98;
-	/*...prints 98\n*/
+	*(p + 5) = 98;
+	/*...prints 98\n */
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
