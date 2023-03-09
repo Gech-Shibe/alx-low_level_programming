@@ -18,3 +18,4 @@ int is_prime_number(int n)
 	else if (n % 2 == 1)
 		_is_prime = 1;
 	return (_is_prime);
+}
